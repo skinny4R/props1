@@ -1,0 +1,39 @@
+.navbar-custom {
+  background-color: #343a40;
+  border-radius: 0;
+  width: 100%;
+}
+
+.navbar-brand-custom {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link-custom {
+  color: #fff !important;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.cart-icon {
+  font-size: 1.5rem;
+  color: #fff;
+  position: relative;
+}
+
+.cart-icon:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #dc3545;
+  top: -5px;
+  right: -5px;
+  display: none;
+}
+
+.cart-icon:hover:before {
+  display: block;
+}
